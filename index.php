@@ -30,10 +30,10 @@
             <!--Formulario Inicio y Registro-->
             <div class="contenedor__login-register">
                 <!--Inicio-->
-                <form action="" class="formulario__login">
+                <form action="php/login_usuario_be.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electrónico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo Electrónico" name="correo">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
                 <!--Registro-->

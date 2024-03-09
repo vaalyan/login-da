@@ -6,6 +6,12 @@
     $correo = $_POST['correo'];
     $usuario = $_POST['usuario'];
     $contrasena = $_POST['contrasena'];
+
+    //Encriptar contraseña
+    $salt = uniqid(mt_rand(), true); //sal aleatorio
+    $contrasena_salt = $contrasena . $salt; //concatenar sal y contraseña
+    $contrasena = hash('sha512', $contrasena_salt);
+
     //query para insertar datos en la tabla - tener los mismos nombres de las columnas
     $query = "INSERT INTO usuarios(nombre_completo, correo, usuario, contrasena) 
                 VALUES('$nombre_completo', '$correo', '$usuario', '$contrasena')";
