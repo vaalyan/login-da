@@ -39,7 +39,7 @@ main {
 
 .caja__trasera div {
     margin: 100px 40px;
-    color: whitesmoke;
+    color: black;
     transition: all 500ms;
 }
 
