@@ -2,17 +2,19 @@
 
     session_start();
 
-    if(!isset($_SESSION['usuario'])){
+    if(!isset($_SESSION['usuario'])){ //proteccion sessión
         echo '
             <script>
                 alert("Por favor, iniciar sesión");
-                window.location = "index.php";
+                window.location = "../index.php";
             </script>
         ';
-        header("location: index.php");
         session_destroy();
         die();
     }
+
+    //session_destroy(); cerrar sesión automáticamente
+
 ?>
 
 <!DOCTYPE html>
@@ -24,5 +26,6 @@
 </head>
 <body>
     <h1>Bienvenido al mundo de fantasía épica de Bioware, Dragon Age.</h1>
+    <a href="cerrar_sesion.php">Cerrar sesion</a>
 </body>
 </html>
