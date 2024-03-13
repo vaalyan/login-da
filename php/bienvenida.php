@@ -23,9 +23,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenido a Thedas - Dragon Age</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <h1>Bienvenido al mundo de fantasía épica de Bioware, Dragon Age.</h1>
-    <a href="cerrar_sesion.php">Cerrar sesion</a>
+    <main>
+        <h1>Bienvenido al mundo de fantasía épica de Bioware, Dragon Age.</h1>
+        <a class="button" href="cerrar_sesion.php">Cerrar sesion</a>
+    </main>
+    
 </body>
 </html>
