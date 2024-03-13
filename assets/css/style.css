@@ -127,7 +127,7 @@ main {
 .formulario__register {
     display: none;
 }
-
+/*Boton cerrar sesión*/
 .button {
     display: inline-block;
     padding: 10px 40px;
