@@ -34,7 +34,7 @@
         }
     } else {
         //Solicidud diferente a DELETE
-        $respuesta = array('error' => 'Método de solocitud incorrecto');
+        $respuesta = array('error' => 'Método de solicitud incorrecto');
         header('Content-Type: application/json');
         echo json_encode($respuesta);
     }
