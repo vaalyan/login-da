@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #272727;
+    --text: white;
+    --white: #ffffff;
+    --sidebar-primary: #605DFF;
+    --sidebar-primary-light: #5DA8FF;
+    --sidebar-primary-hover: #605dff10;
+    --sidebar-background: #fcfcfd;
+    --background: #f1f3ff;
+    --text-link: #424662;
+    --headline: #7686bc;
+    --cta-background: #ebf3ff;;
+    --cta-background-darker: #cdd2f3;
+    --cta-text: #1c2035;
+    --neutral: #e6e8f0;
+    --expand-button: #4a516d;
+    --logout: #fa7575;
+    --text: #303651;
+    --text-lighter: #697089;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #c7d2dc;
+    font-size: 16px;
+    padding: 16px;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    min-height: 53.75rem;
+    height: 100%;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    max-width: 18rem;
+    display: flex;
+    color: var(--white);
+    flex-direction: column;
+    background: var(--sidebar-background);
+    transition: max-width 0.1s ease-in-out;
+}
+
+body.collapsed .sidebar {
+    max-width: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+body.collapsed .hide {
+    position: absolute;
+    display: none;
+}
+
+/*searcj wrapper*/
+.search__wrapper {
+    padding: 0 1rem;
+    position: relative;
+}
+
+.search__wrapper img {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 1.625rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    right: 1.5rem;
+}
+
+body.collapsed .search__wrapper img {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    color: var(--text-link);
+    stroke: var(--text-link);
+}
+
+.search__wrapper
+input::-webkit-input-placeholder {
+    color: var(--text-link);
+    white-space: nowrap;
+}
+
+body.collapsed .search__wrapper
+input {
+    max-width: 2.5rem;
+}
+
+body.collapsed .search__wrapper
+input::-webkit-input-placeholder {
+    color: transparent;
+}

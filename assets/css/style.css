@@ -129,6 +129,10 @@ main {
 }
 /*Boton cerrar sesión*/
 .button {
+    position: fixed;
+    bottom: 20px; /*Distancia borde inferior*/
+    left: 50%; /*Centrar el boton*/
+    transform: translateX(-50%); /*Centrar el boton*/
     display: inline-block;
     padding: 10px 40px;
     border: 2px solid #fff;
