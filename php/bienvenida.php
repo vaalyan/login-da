@@ -32,17 +32,19 @@
 <body>
     <main>
         <h1>Bienvenido a Inventas.</h1>
-        <a class="button" href="cerrar_sesion.php">Cerrar sesion</a>
+        <!-- <a class="button" href="cerrar_sesion.php">Cerrar sesion</a> -->
         
         <nav class="sidebar">
             <div class="sidebar-top-wrapper">
                 <div class="sidebar-top">
-                    <a href="#" class="logo__wrapper">
+                    <a href="bienvenida.php" class="logo__wrapper">
                     <img src="../assets/imag/inventas.png" alt="Logo" class="logo-small">
                         <span class="hide">Almacén</span>
                     </a>
                 </div>
-                <div class="expand-btn"></div>
+                <div class="expand-btn">
+                    <img src="../assets/imag/proximo.png">
+                </div>
             </div>
             <div class="search__wrapper">
                 <img src="../assets/imag/buscar.png" alt="Buscar" class="logo-small">
@@ -52,25 +54,25 @@
                 <h2>Principal</h2>
                 <ul>
                     <li>
-                        <a href="#inicio" title="Inicio" class="tooltip">
+                        <a href="bienvenida.php" title="Inicio" class="tooltip">
                             <span class="link hide">Inicio</span>
                             <span class="tooltip__content">Inicio</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#productos" title="Productos" class="tooltip">
+                        <a href="productos.php" title="Productos" class="tooltip">
                             <span class="link hide">Productos</span>
                             <span class="tooltip__content">Productos</span>
                         </a>
                     </li>
                     <li>
-                    <a href="#pedido" title="Pedido" class="tooltip">
-                            <span class="link hide">Pedido</span>
-                            <span class="tooltip__content">Pedido</span>
+                    <a href="pedidos.php" title="Pedidos" class="tooltip">
+                            <span class="link hide">Pedidos</span>
+                            <span class="tooltip__content">Pedidos</span>
                         </a>
                     </li>
                     <li>
-                    <a href="#cuenta" title="Cuenta" class="tooltip">
+                    <a href="cuenta.php" title="Cuenta" class="tooltip">
                             <span class="link hide">Cuenta</span>
                             <span class="tooltip__content">Cuenta</span>
                         </a>
@@ -81,7 +83,7 @@
             <div class="sidebar-links bottom-links">
                 <ul>
                     <li>
-                        <a href="#configuracion" tittle="Configuración" class="tooltip">
+                        <a href="configuracion.php" tittle="Configuración" class="tooltip">
                             <span class="link hide">Configuración</span>
                             <span class="tooltip__content">Configuración</span>
                         </a>
@@ -113,7 +115,7 @@
                     <div class="user-name">Dan Rojas</div>
                     <div class="email">dan9849r@gmail.com</div>
                 </section>
-                <a href="#logout" class="logout">
+                <a href="cerrar_sesion.php" class="logout">
                     <img src="../assets/imag/salida.png" alt="Cerrar sesión">
                 </a>
             </div>

@@ -64,7 +64,7 @@ body.collapsed .hide {
     display: none;
 }
 
-/*searcj wrapper*/
+/*search wrapper*/
 .search__wrapper {
     padding: 0 1rem;
     position: relative;
@@ -95,13 +95,11 @@ input::-webkit-input-placeholder {
     white-space: nowrap;
 }
 
-body.collapsed .search__wrapper
-input {
+body.collapsed .search__wrapper input {
     max-width: 2.5rem;
 }
 
-body.collapsed .search__wrapper
-input::-webkit-input-placeholder {
+body.collapsed .search__wrapper input::-webkit-input-placeholder {
     color: transparent;
 }
 
