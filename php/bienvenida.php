@@ -81,7 +81,7 @@
             <div class="sidebar-links bottom-links">
                 <ul>
                     <li>
-                        <a href="#configuracion" tittle="DConfiguración" class="tooltip">
+                        <a href="#configuracion" tittle="Configuración" class="tooltip">
                             <span class="link hide">Configuración</span>
                             <span class="tooltip__content">Configuración</span>
                         </a>
@@ -106,7 +106,7 @@
             <div class="divider"></div>
             <div class="sidebar__profile">
                 <div class="avatar__wrapper">
-                    <img class="avatar" src="../assets/imag/assets/imag/dan_o.png" alt="Dan Rojas ">
+                    <img class="avatar" src="../assets/imag/dan_p.png" alt="Dan Rojas ">
                     <div class="online__status"></div>
                 </div>
                 <section class="avatar__name hide">
@@ -114,13 +114,13 @@
                     <div class="email">dan9849r@gmail.com</div>
                 </section>
                 <a href="#logout" class="logout">
-                    <img src="..asssets/imag/salida.png" alt="Cerrar sesión">
+                    <img src="../assets/imag/salida.png" alt="Cerrar sesión">
                 </a>
             </div>
         </nav> 
     </main>
     
-    <script src="script.js"></script>
+    <script src="../assets/js/script.js"></script>
 
 </body>
 </html>
