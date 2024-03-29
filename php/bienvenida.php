@@ -120,7 +120,7 @@
         </nav> 
     </main>
     
-    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/script_pb.js"></script>
 
 </body>
 </html>
