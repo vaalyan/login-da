@@ -77,29 +77,27 @@
                             <span class="tooltip__content">Cuenta</span>
                         </a>
                     </li>
-                </ul>
-            </div>
-
-            <div class="sidebar-links bottom-links">
-                <ul>
                     <li>
-                        <a href="configuracion_usuario.php" tittle="Configuración" class="tooltip">
+                        <a href="configuracion_usuario.php" title="Configuración" class="tooltip">
                             <span class="link hide">Configuración</span>
                             <span class="tooltip__content">Configuración</span>
                         </a>
                     </li>
                 </ul>
+            </div>
+
+            <div class="sidebar-links bottom-links">
                 <h2>Contáctanos</h2>
                 <ul>
                     <li>
                         <a href="#contactos" title="Contactanos" class="tooltip">
-                            <span class="link_hide">Email</span>
+                            <span class="link hide">Email</span>
                             <span class="tooltip__content">Email</span>
                         </a>
                     </li>
                     <li>
                         <a href="#contactos" title="Contactanos" class="tooltip">
-                            <span class="link_hide">WhatsApp</span>
+                            <span class="link hide">WhatsApp</span>
                             <span class="tooltip__content">WhatsApp</span>
                         </a>
                     </li>
@@ -114,7 +112,6 @@
                     </a>
                 </div>
                 <section class="avatar__name hide">
-                    <!-- <a href="cuenta_usuario.php" title="Cuenta" class="tooltip"></a> -->
                     <div class="user-name">Dan Rojas</div>
                     <div class="email">dan9849r@gmail.com</div>
                 </section>
