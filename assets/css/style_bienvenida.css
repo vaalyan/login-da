@@ -372,3 +372,14 @@ body.collapsed .expand-btn img {
         width: 100%
     }
 }
+
+.container-derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    width: 300px;
+    padding: 20px;
+    background-color: var(--cta-background);
+    border-radius: 8px;
+}
