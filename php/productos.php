@@ -121,15 +121,19 @@
             </div>
         </nav> 
 
+            <?php include 'productos_be.php';
+            ?>
+
         <div class="container-derecha">
             <h2>¡Productos del momento!</h2>
             <div class="container-productos">
-                <ul>
-                    <li class="procucto">Producto 1</li>
-                    <li class="producto">Producto 2</li>
-                    <li class="producto">Producto 3</li>
-                    <li class="producto">Producto 4</li>
-                </ul>
+                <table>
+                    <tr>
+                        <th>
+
+                        </th>
+                    </tr>
+                </table>
             </div>
         </div>
 

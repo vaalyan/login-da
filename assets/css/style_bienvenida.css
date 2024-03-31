@@ -378,7 +378,8 @@ body.collapsed .expand-btn img {
     flex-direction: column;
     align-items: flex-start;
     margin-left: auto;
-    width: 300px;
+    width: 70%;
+    height: 70%;
     padding: 20px;
     background-color: var(--cta-background);
     border-radius: 8px;
