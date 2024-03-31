@@ -119,6 +119,12 @@
                     <img src="../assets/imag/salida.png" alt="Cerrar sesión">
                 </a>
             </div>
+
+            <div class="content-right">
+                <div class="content-pedido">
+                    
+                </div>
+            </div>
         </nav> 
     </main>
     
