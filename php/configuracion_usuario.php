@@ -22,7 +22,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventas</title>
+    <title>Inventas - Configuración usuario</title>
 
     <!--<link rel="stylesheet" href="../assets/css/style.css">-->
 
@@ -90,13 +90,13 @@
                 <h2>Contáctanos</h2>
                 <ul>
                     <li>
-                        <a href="#contactos" title="Contactanos" class="tooltip">
+                        <a href="mailto:inventas_software@gmail.com" title="Contactanos" class="tooltip">
                             <span class="link hide">Email</span>
                             <span class="tooltip__content">Email</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#contactos" title="Contactanos" class="tooltip">
+                        <a href="tel:+573215684033" title="Contactanos" class="tooltip">
                             <span class="link hide">WhatsApp</span>
                             <span class="tooltip__content">WhatsApp</span>
                         </a>
